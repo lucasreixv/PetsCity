@@ -86,6 +86,7 @@
             txtNomePet.Name = "txtNomePet";
             txtNomePet.Size = new Size(100, 23);
             txtNomePet.TabIndex = 4;
+            txtNomePet.TextChanged += txtNomePet_TextChanged;
             // 
             // txtPreçoUnitario
             // 
@@ -111,25 +112,26 @@
             // lblNome
             // 
             lblNome.AutoSize = true;
-            lblNome.Location = new Point(12, 225);
+            lblNome.Location = new Point(50, 213);
             lblNome.Name = "lblNome";
-            lblNome.Size = new Size(38, 15);
+            lblNome.Size = new Size(40, 15);
             lblNome.TabIndex = 8;
-            lblNome.Text = "nome";
+            lblNome.Text = "Nome";
             // 
             // lblDesconto
             // 
             lblDesconto.AutoSize = true;
-            lblDesconto.Location = new Point(3, 262);
+            lblDesconto.Location = new Point(49, 242);
             lblDesconto.Name = "lblDesconto";
             lblDesconto.Size = new Size(57, 15);
             lblDesconto.TabIndex = 9;
             lblDesconto.Text = "Desconto";
+            lblDesconto.Click += lblDesconto_Click;
             // 
             // lblValorFinal
             // 
             lblValorFinal.AutoSize = true;
-            lblValorFinal.Location = new Point(2, 297);
+            lblValorFinal.Location = new Point(49, 272);
             lblValorFinal.Name = "lblValorFinal";
             lblValorFinal.Size = new Size(58, 15);
             lblValorFinal.TabIndex = 10;
@@ -138,7 +140,7 @@
             // lblParcela
             // 
             lblParcela.AutoSize = true;
-            lblParcela.Location = new Point(3, 326);
+            lblParcela.Location = new Point(50, 302);
             lblParcela.Name = "lblParcela";
             lblParcela.Size = new Size(45, 15);
             lblParcela.TabIndex = 11;
@@ -147,7 +149,7 @@
             // lblStatus
             // 
             lblStatus.AutoSize = true;
-            lblStatus.Location = new Point(2, 358);
+            lblStatus.Location = new Point(50, 332);
             lblStatus.Name = "lblStatus";
             lblStatus.Size = new Size(39, 15);
             lblStatus.TabIndex = 12;
@@ -161,6 +163,7 @@
             btnCalcular.TabIndex = 13;
             btnCalcular.Text = "Calcular";
             btnCalcular.UseVisualStyleBackColor = true;
+            btnCalcular.Click += btnCalcular_Click;
             // 
             // Form1
             // 

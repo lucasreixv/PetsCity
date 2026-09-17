@@ -32,7 +32,7 @@
         {
             return CalcularValorFinal() / 3.0;
         }
-        public bool Validarinde()
+        public bool ValidaBrinde()
         {
             return (IdadeAnimal >= 12 && QuantidadesBanho >= 6) || (CalcularValorFinal() > 100.0);
 

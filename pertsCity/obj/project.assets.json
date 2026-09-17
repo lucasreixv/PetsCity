@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\2amod\\Desktop\\pertsCity\\pertsCity\\pertsCity.csproj",
+      "projectUniqueName": "C:\\Users\\2amod\\Desktop\\PetsCity\\pertsCity\\pertsCity.csproj",
       "projectName": "pertsCity",
-      "projectPath": "C:\\Users\\2amod\\Desktop\\pertsCity\\pertsCity\\pertsCity.csproj",
+      "projectPath": "C:\\Users\\2amod\\Desktop\\PetsCity\\pertsCity\\pertsCity.csproj",
       "packagesPath": "C:\\Users\\2amod\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\2amod\\Desktop\\pertsCity\\pertsCity\\obj\\",
+      "outputPath": "C:\\Users\\2amod\\Desktop\\PetsCity\\pertsCity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -77,7 +77,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400-preview.0.26322.102/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
